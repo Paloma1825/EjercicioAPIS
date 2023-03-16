@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>APIS HTML</title>
+        <meta charset="utf-8">
+        <script src='index.js'type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    </head>
+
+    <body>
+        <h3>Cargar de fichero de video</h3>
+        <br>
+        <input type="file" id="file" name="file" onchange="handleFileSelect(event)" />
+        <br>
+        <output id="salida"></output>
+        <br>
+        <div id='video-controls'>
+
+            <button type="button" id='play'>Reproducir</button>
+            <button type="button" id='pause'>Pausa</button>
+            <button type="button" id='volumeup'>Subir Volumen</button>
+            <button type="button" id='volumedown'>Bajar Volumen</button>
+
+        </div>
+
+    </body>
+
+
+</html>
